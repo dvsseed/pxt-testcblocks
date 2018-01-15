@@ -1,7 +1,6 @@
 // Auto-generated. Do not edit.
 //% weight=110 color=#ff00ff icon="\uf079"
 declare namespace DS3231 {
-
     /**
      * Sets the current datetime on the external DS3231 rtc sensor
      * @param sYear describe parameter here, eg: 18
@@ -44,7 +43,6 @@ declare namespace DS3231 {
     //% block="display temperature sensor value (°C)"
     //% shim="DS3231::fn_displayTemp"
     function fn_displayTemp(): void;
-
 }
 
 // Auto-generated. Do not edit. Really.
