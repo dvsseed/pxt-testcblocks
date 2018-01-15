@@ -1,5 +1,5 @@
 {
-    "name": "ds3231",
+    "name": "testcblocks",
     "version": "0.1.0",
     "description": "Custom blocks for PXT to show the real-time clock on TaiBit's with DS3231 sensor",
     "license": "MIT",
@@ -13,7 +13,7 @@
         "ds3231.h",
         "shims.d.ts",
         "enums.d.ts",
-        "_locales/zh/ds3231-strings.json"
+        "_locales/zh/testcblocks-strings.json"
     ],
     "testFiles": [
         "test.ts"
