@@ -37,7 +37,7 @@ namespace DS3231 {
 
     // predeclare functions
     void getTimeAndDate();
-    void setDateTimeByUser(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond);
+    void setDateTime(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond);
     void displayDate();
     void displayTime();
     void displayTemp();
@@ -80,7 +80,7 @@ namespace DS3231 {
         tempOut = (tmp + " degC");
     }
 
-    void setDateTimeByUser(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond)
+    void setDateTime(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond)
     {
         int rVal;
         bool setMode, setAM_PM;
@@ -121,17 +121,17 @@ namespace DS3231 {
     }
 
     /**
-    * Sets the current datetime on the external ds3231 rtc sensor
+    * Sets the current datetime on the external DS3231 rtc sensor
     */
     //% blockId="id_setDateTime"
-    //% block="set datetime to ds3231 sensor => 20%sYear-%sMonth-%sDay %sHour:%sMinute-%sSecond"
+    //% block="set datetime to DS3231 sensor => 20%sYear-%sMonth-%sDay %sHour:%sMinute-%sSecond"
     void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond) {
         setDateTimeByUser(sYear, sMonth, sDay, sHour, sMinute, sSecond); // ex: 2018-1-4 14:53:50
         uBit.sleep(100);
     }
 
     /**
-    * Gets the current date on the ds3231 rtc sensor
+    * Gets the current date on the DS3231 rtc sensor
     */
     //% blockId="id_displayDate"
     //% block="display Date (ex: 2018-1-5)"
@@ -142,7 +142,7 @@ namespace DS3231 {
     }
 
     /**
-    * Gets the current time on the ds3231 rtc sensor
+    * Gets the current time on the DS3231 rtc sensor
     */
     //% blockId="id_displayTime"
     //% block="display Time (ex: 12:59:59)"
@@ -153,7 +153,7 @@ namespace DS3231 {
     }
 
     /**
-    * Gets the current temperature value on the ds3231 temperature sensor
+    * Gets the current temperature value on the DS3231 temperature sensor
     */
     //% blockId="id_displayTemp"
     //% block="display temperature sensor value (°C)"
