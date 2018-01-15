@@ -1,4 +1,4 @@
-# test-cblocks
+# testcblocks
 
 Custom blocks for PXT to show the DS3231 sensor real-time clock values on TaiBit's LED matrix.
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-test-cblocks=github:dvsseed/pxt-test-cblocks
+testcblocks=github:dvsseed/pxt-testcblocks
 ```
