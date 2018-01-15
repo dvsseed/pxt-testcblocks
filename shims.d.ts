@@ -43,7 +43,7 @@ declare namespace DS3231 {
 	//% blockId="id_displayTemp"
     //% block="display temperature sensor value (°C)"
     //% shim="DS3231::fn_displayTemp"
-	function fn_displayTemp(): void;
+    function fn_displayTemp(): void;
 
 }
 
