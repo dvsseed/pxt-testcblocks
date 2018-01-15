@@ -41,6 +41,10 @@ namespace DS3231 {
     void displayDate();
     void displayTime();
     void displayTemp();
+    void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond);
+    void fn_displayDate();
+    void fn_displayTime();
+    void fn_displayTemp();
 
     void getTimeAndDate()
     {
@@ -126,7 +130,7 @@ namespace DS3231 {
     //% blockId="id_setDateTime"
     //% block="set datetime to DS3231 sensor => 20%sYear-%sMonth-%sDay %sHour:%sMinute-%sSecond"
     void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond) {
-        setDateTimeByUser(sYear, sMonth, sDay, sHour, sMinute, sSecond); // ex: 2018-1-4 14:53:50
+        setDateTime(sYear, sMonth, sDay, sHour, sMinute, sSecond); // ex: 2018-1-4 14:53:50
         uBit.sleep(100);
     }
 
