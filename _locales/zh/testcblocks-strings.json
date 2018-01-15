@@ -1,0 +1,6 @@
+{
+    "DS3231.fn_setDateTime|block": "設定 目前的日期時間 至 DS3231感測器 => 20|%sYear-|%sMonth-|%sDay |%sHour:|%sMinute-|%sSecond",
+    "DS3231.fn_displayDate|block": "顯示 現在日期 (例: 2018-1-5)",
+    "DS3231.fn_displayTime|block": "顯示 現在時間 (例: 12:59:59)",
+    "DS3231.fn_displayTemp|block": "顯示 現在溫度 (°C)"
+}
