@@ -128,7 +128,7 @@ namespace DS3231 {
     * Sets the current datetime on the external DS3231 rtc sensor
     */
     //% blockId="id_setDateTime"
-    //% block="set datetime to DS3231 sensor => 20|%sYear-|%sMonth-|%sDay |%sHour:|%sMinute-|%sSecond"
+    //% block="set datetime to DS3231 sensor => 20%sYear-|%sMonth-|%sDay |%sHour:|%sMinute-|%sSecond"
     void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond) {
         setDateTime(sYear, sMonth, sDay, sHour, sMinute, sSecond); // ex: 2018-1-4 14:53:50
         uBit.sleep(100);
