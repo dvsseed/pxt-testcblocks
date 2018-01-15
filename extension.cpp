@@ -36,15 +36,15 @@ namespace DS3231 {
     int displayMode = 0;
 
     // predeclare functions
-    void getTimeAndDate();
-    void setDateTime(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond);
-    void displayDate();
-    void displayTime();
-    void displayTemp();
-    void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond);
-    void fn_displayDate();
-    void fn_displayTime();
-    void fn_displayTemp();
+    // void getTimeAndDate();
+    // void setDateTime(int uYear, int uMonth, int uDay, int uHour, int uMinute, int uSecond);
+    // void displayDate();
+    // void displayTime();
+    // void displayTemp();
+    // void fn_setDateTime(int sYear, int sMonth, int sDay, int sHour, int sMinute, int sSecond);
+    // void fn_displayDate();
+    // void fn_displayTime();
+    // void fn_displayTemp();
 
     void getTimeAndDate()
     {
