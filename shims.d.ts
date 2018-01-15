@@ -14,7 +14,7 @@ declare namespace DS3231 {
 	 */
     //% weight=100
     //% blockId="id_setDateTime"
-    //% block="set datetime to DS3231 sensor => 20%sYear-%sMonth-%sDay %sHour:%sMinute-%sSecond"
+    //% block="set datetime to DS3231 sensor => 20|%sYear-|%sMonth-|%sDay |%sHour:|%sMinute-|%sSecond"
 	//% shim="DS3231::fn_setDateTime"
     function fn_setDateTime(sYear: number, sMonth: number, sDay: number, sHour: number, sMinute: number, sSecond: number): void;
 
