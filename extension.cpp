@@ -16,7 +16,7 @@ Modified by Davis, 2018/1/4
 
 MicroBit uBit;
 
-namespace ds3231 {
+namespace DS3231 {
     int iss, imm, ihh, iDD, iMM, iYY;
     ManagedString ss, mm, hh, dOw, DD, MM, YY, txtMonth, txtDay, tempOut;
     ManagedString tsep = ":";
