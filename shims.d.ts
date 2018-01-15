@@ -15,34 +15,34 @@ declare namespace DS3231 {
     //% weight=100
     //% blockId="id_setDateTime"
     //% block="set datetime to DS3231 sensor => 20%sYear-%sMonth-%sDay %sHour:%sMinute-%sSecond"
-	//% shim="ds3231::fn_setDateTime"
+	//% shim="DS3231::fn_setDateTime"
     function fn_setDateTime(sYear: number, sMonth: number, sDay: number, sHour: number, sMinute: number, sSecond: number): void;
 
     /**
-     * Gets the current date on the ds3231 rtc sensor
+     * Gets the current date on the DS3231 rtc sensor
      */
     //% weight=90
     //% blockId="id_displayDate"
     //% block="display Date (ex: 2018-1-4)"
-    //% shim="ds3231::fn_displayDate"
+    //% shim="DS3231::fn_displayDate"
     function fn_displayDate(): void;
 
     /**
-     * Gets the current time on the ds3231 rtc sensor
+     * Gets the current time on the DS3231 rtc sensor
      */
 	//% weight=80
     //% blockId="id_displayTime"
     //% block="display Time (ex: 12:59:59)"
-    //% shim="ds3231::fn_displayTime"
+    //% shim="DS3231::fn_displayTime"
     function fn_displayTime(): void;
 
     /**
-     * Gets the current temperature value on the ds3231 temperature sensor
+     * Gets the current temperature value on the DS3231 temperature sensor
      */
 	//% weight=70
 	//% blockId="id_displayTemp"
     //% block="display temperature sensor value (°C)"
-    //% shim="ds3231::fn_displayTemp"
+    //% shim="DS3231::fn_displayTemp"
 	function fn_displayTemp(): void;
 
 }
