@@ -3,7 +3,7 @@
 declare namespace DS3231 {
 
     /**
-     * Sets the current datetime on the external ds3231 rtc sensor
+     * Sets the current datetime on the external DS3231 rtc sensor
      * @param sYear describe parameter here, eg: 18
      * @param sMonth describe parameter here, eg: 1
      * @param sMonth describe parameter here, eg: 1
